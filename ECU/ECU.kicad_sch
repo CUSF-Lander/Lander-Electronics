@@ -3037,7 +3037,7 @@
 		)
 		(uuid "9efa7781-7539-44c0-a11e-8e4c675842f6")
 	)
-	(text "TO-DO:\n\nVoltage I/Os\nUART Comms with other boards\nValve control relays/servo \n"
+	(text "TO-DO:\n\nVoltage I/Os (50% done)\nUART Comms with other boards\nValve control relays/servo \n"
 		(exclude_from_sim no)
 		(at 143.764 135.89 0)
 		(effects
@@ -3178,6 +3178,12 @@
 		(uuid "44a2b2a9-7710-4e29-8531-70c9802aefe1")
 	)
 	(junction
+		(at 158.75 158.496)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46306ebd-c78b-4cf6-9836-6d726b5963c9")
+	)
+	(junction
 		(at 246.38 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3266,6 +3272,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8219c9ba-65cb-4a30-8dcc-ff3b9525ebbb")
+	)
+	(junction
+		(at 156.21 158.496)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "829f9330-16a3-48cc-88b9-cf1641f567f2")
 	)
 	(junction
 		(at 218.44 78.74)
@@ -3464,6 +3476,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ffc71ecd-83f1-4787-8d38-4ffb09c00726")
+	)
+	(wire
+		(pts
+			(xy 156.21 158.496) (xy 156.21 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "025dd89d-432e-4b42-871b-baa6e4c41de4")
 	)
 	(wire
 		(pts
@@ -4054,6 +4076,16 @@
 			(type default)
 		)
 		(uuid "43a6c7a3-b060-4ab3-807c-ea7eaeeaa730")
+	)
+	(wire
+		(pts
+			(xy 158.75 151.13) (xy 167.64 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "446282dc-426b-4f04-9788-366be8776e31")
 	)
 	(wire
 		(pts
@@ -4777,6 +4809,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 158.496) (xy 158.75 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eaceb3e-6b9f-4b09-b810-9b3387a5885d")
+	)
+	(wire
+		(pts
 			(xy 26.67 105.41) (xy 26.67 107.95)
 		)
 		(stroke
@@ -5117,6 +5159,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 158.75) (xy 156.21 158.496)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae6641df-acc6-4b67-a5e6-f9e26bb4a137")
+	)
+	(wire
+		(pts
 			(xy 237.49 30.48) (xy 243.84 30.48)
 		)
 		(stroke
@@ -5174,6 +5226,16 @@
 			(type default)
 		)
 		(uuid "b4e7ef49-540c-46e2-8234-ce6b2cab6588")
+	)
+	(wire
+		(pts
+			(xy 156.21 147.32) (xy 176.53 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b54b4998-0b1f-4dee-8871-f54b2349f7bc")
 	)
 	(wire
 		(pts
@@ -5577,6 +5639,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 151.13) (xy 158.75 158.496)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc218d6b-7252-48a2-b394-4541e2c65366")
+	)
+	(wire
+		(pts
 			(xy 218.44 119.38) (xy 218.44 124.46)
 		)
 		(stroke
@@ -5734,6 +5806,16 @@
 			(type default)
 		)
 		(uuid "ec00028a-1c5e-46ae-9684-ad36d5a16a3c")
+	)
+	(wire
+		(pts
+			(xy 176.53 147.32) (xy 176.53 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecdf8ba3-9a5c-48e7-b12e-2104d029b525")
 	)
 	(wire
 		(pts
@@ -6728,6 +6810,84 @@
 			(project "ECU"
 				(path "/b6c7452d-bbbd-4e52-8edb-9d62f328c3a7"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 176.53 148.59 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f9c8401-deb2-495a-ab3a-65fafbf5a56a")
+		(property "Reference" "#PWR027"
+			(at 176.53 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 176.53 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 176.53 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a818769-767e-4700-9def-63f81fdfbbf2")
+		)
+		(instances
+			(project "ECU"
+				(path "/b6c7452d-bbbd-4e52-8edb-9d62f328c3a7"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11008,6 +11168,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 167.64 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee0c7d37-01ee-4c70-af92-21cc5fda823d")
+		(property "Reference" "#PWR026"
+			(at 167.64 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c0de06b5-b341-440b-841a-b98e352ccb3a")
+		)
+		(instances
+			(project "ECU"
+				(path "/b6c7452d-bbbd-4e52-8edb-9d62f328c3a7"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 25.4 68.58 0)
 		(unit 1)
 		(body_style 1)
@@ -11398,6 +11636,258 @@
 				(path "/b6c7452d-bbbd-4e52-8edb-9d62f328c3a7"
 					(reference "R22")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 18.034 162.56)
+		(size 51.054 29.464)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "865b6f14-7d9b-4f62-b690-7f2d8bf507e4")
+		(property "Sheetname" "EMControl"
+			(at 18.034 161.8484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "EMControl.kicad_sch"
+			(at 18.034 192.6086 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ECU"
+				(path "/b6c7452d-bbbd-4e52-8edb-9d62f328c3a7"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.474 158.496)
+		(size 56.642 34.036)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e976c7b0-5837-4dc2-b716-0849b5538904")
+		(property "Sheetname" "VIOAmplification"
+			(at 109.474 157.7844 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VIO.kicad_sch"
+			(at 109.474 193.1166 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VIN0" input
+			(at 109.474 161.29 180)
+			(uuid "7133015d-c0d5-4df4-b21a-841022090712")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN1" input
+			(at 109.474 165.1 180)
+			(uuid "dc669d04-2427-400b-9804-de48422aeedd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 135.89 158.496 90)
+			(uuid "65b3cab0-366a-42e5-9816-541d29159ced")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLKIN" input
+			(at 138.43 158.496 90)
+			(uuid "2d9d4046-8655-4b2a-a56d-7ca630a7dc37")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 158.75 158.496 90)
+			(uuid "5b1932cd-bb7b-49dd-9893-08000ab086e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIN" input
+			(at 133.35 158.496 90)
+			(uuid "c9697eeb-8923-4cda-9638-8076bf5e506d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCLK" input
+			(at 130.81 158.496 90)
+			(uuid "8003c821-3a1b-4067-9bb0-8470226bda26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VIN4" input
+			(at 109.474 176.53 180)
+			(uuid "35cc941e-3955-4954-b79f-2fde6ead0133")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN2" input
+			(at 109.474 168.91 180)
+			(uuid "b2936be4-4cc8-45c5-aa14-6c7fc5810390")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN3" input
+			(at 109.474 172.72 180)
+			(uuid "e8ade474-9cd2-4faf-8578-2454097aa4ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN5" input
+			(at 109.474 180.34 180)
+			(uuid "e18dd6d3-8c33-45df-a027-ac4cfb4eb1e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN6" input
+			(at 109.474 184.15 180)
+			(uuid "271b9fb3-7462-4661-bebf-e95f280123e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN7" input
+			(at 109.474 187.96 180)
+			(uuid "c109d672-85ad-4b9a-b2ca-cd0059180eb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3" input
+			(at 156.21 158.496 90)
+			(uuid "9caf1874-a030-4a10-9f15-6550987bd42b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS1" input
+			(at 140.97 158.496 90)
+			(uuid "fd323cd0-18ac-40ff-a93c-11d0be375023")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS2" input
+			(at 143.51 158.496 90)
+			(uuid "22d6fe15-1a49-4962-be4b-99d9d051913f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ECU"
+				(path "/b6c7452d-bbbd-4e52-8edb-9d62f328c3a7"
+					(page "2")
 				)
 			)
 		)

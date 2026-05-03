@@ -645,13 +645,21 @@
         "uuid": "b6c7452d-bbbd-4e52-8edb-9d62f328c3a7"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR24-27",
     "variants": []
   },
   "sheets": [
     [
       "b6c7452d-bbbd-4e52-8edb-9d62f328c3a7",
       "ECU"
+    ],
+    [
+      "e976c7b0-5837-4dc2-b716-0849b5538904",
+      "VIOAmplification"
+    ],
+    [
+      "865b6f14-7d9b-4f62-b690-7f2d8bf507e4",
+      "EMControl"
     ]
   ],
   "text_variables": {},
