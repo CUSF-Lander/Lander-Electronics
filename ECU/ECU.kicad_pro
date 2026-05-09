@@ -645,7 +645,7 @@
         "uuid": "b6c7452d-bbbd-4e52-8edb-9d62f328c3a7"
       }
     ],
-    "used_designators": "#PWR24-27",
+    "used_designators": "R26-29,J1-3,D1-2,#PWR28-33,C17-18,U8",
     "variants": []
   },
   "sheets": [
@@ -659,7 +659,7 @@
     ],
     [
       "865b6f14-7d9b-4f62-b690-7f2d8bf507e4",
-      "EMControl"
+      "Outputs (page 3)"
     ]
   ],
   "text_variables": {},
