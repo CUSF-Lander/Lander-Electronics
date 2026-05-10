@@ -632,13 +632,21 @@
         "uuid": "7a4be718-1ef8-403e-99ff-d08c9539d20b"
       }
     ],
-    "used_designators": "R1-3,C1-3,Y1,#PWR1-30,IC1-5,U1-2",
+    "used_designators": "R1-3,C1-15,U1-2,IC2-5,Y1,#PWR1-34",
     "variants": []
   },
   "sheets": [
     [
       "7a4be718-1ef8-403e-99ff-d08c9539d20b",
       "Flight Computer"
+    ],
+    [
+      "2436d9c9-377e-464b-afd1-284aea3db1a0",
+      "Barometers"
+    ],
+    [
+      "09a99d43-15c4-4fc3-8522-2394a0e81282",
+      "IMUS"
     ]
   ],
   "text_variables": {},
