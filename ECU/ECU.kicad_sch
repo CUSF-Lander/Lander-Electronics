@@ -3750,7 +3750,7 @@
 		)
 		(uuid "9efa7781-7539-44c0-a11e-8e4c675842f6")
 	)
-	(text "TO-DO:\n\nVoltage I/Os (50% done) tick\nUART Comms with other boards\nValve control relays/servo tick\n\n"
+	(text "TO-DO:\n\nVoltage I/Os tick\nUART Comms with other boards tick\nValve control relays/servo tick\n\n"
 		(exclude_from_sim no)
 		(at 170.688 136.398 0)
 		(effects

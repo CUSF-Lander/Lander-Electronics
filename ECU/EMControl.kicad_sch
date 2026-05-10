@@ -1298,6 +1298,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 35.56) (xy 189.23 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "041bf3db-0689-45d0-bdd8-dc3170508dc4")
+	)
+	(wire
+		(pts
 			(xy 124.46 33.02) (xy 92.71 33.02)
 		)
 		(stroke
@@ -1435,6 +1445,16 @@
 			(type default)
 		)
 		(uuid "25627c7c-b724-46aa-8939-d1b9d4d780ba")
+	)
+	(wire
+		(pts
+			(xy 153.67 38.1) (xy 189.23 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "280b1995-10c2-4987-a890-ce2624b9a872")
 	)
 	(wire
 		(pts
@@ -1705,6 +1725,16 @@
 			(type default)
 		)
 		(uuid "5112d7ec-db87-40ed-82ff-66669417e7b1")
+	)
+	(wire
+		(pts
+			(xy 153.67 33.02) (xy 189.23 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "528ecc29-ed95-4cac-872a-01f331fa8782")
 	)
 	(wire
 		(pts
@@ -2145,6 +2175,16 @@
 			(type default)
 		)
 		(uuid "c62bdb11-b729-4a34-ac45-27b124a6c281")
+	)
+	(wire
+		(pts
+			(xy 153.67 40.64) (xy 189.23 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c708dda0-91f9-4087-9683-6a12cfd4c279")
 	)
 	(wire
 		(pts
@@ -2705,6 +2745,17 @@
 		)
 		(uuid "6ebb9ea0-b067-4668-a306-df5db266338f")
 	)
+	(hierarchical_label "VIO1"
+		(shape input)
+		(at 189.23 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "74178bf3-c093-4c33-be82-bd04d8821722")
+	)
 	(hierarchical_label "CIN9"
 		(shape input)
 		(at 33.02 138.43 180)
@@ -2804,6 +2855,28 @@
 		)
 		(uuid "beeca740-b122-4149-95f3-73e123a7e7e1")
 	)
+	(hierarchical_label "VIO0"
+		(shape input)
+		(at 189.23 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf2d66e6-5939-49da-b281-99583ab23d2f")
+	)
+	(hierarchical_label "VIO2"
+		(shape input)
+		(at 189.23 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c5e170d5-9865-4a7f-b964-911ff166afa2")
+	)
 	(hierarchical_label "5V"
 		(shape input)
 		(at 31.75 41.91 180)
@@ -2825,6 +2898,17 @@
 			(justify right)
 		)
 		(uuid "ed75db07-1046-413e-9a84-10ca5e9e02bd")
+	)
+	(hierarchical_label "VIO3"
+		(shape input)
+		(at 189.23 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f0efbbed-a22d-46b7-82a7-abda039a62a6")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x20_Pin")
