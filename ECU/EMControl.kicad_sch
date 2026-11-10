@@ -1348,6 +1348,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 71.12) (xy 111.76 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a6b21ea-7d3e-4de3-bd0d-795528ef31e9")
+	)
+	(wire
+		(pts
 			(xy 153.67 45.72) (xy 189.23 45.72)
 		)
 		(stroke
@@ -1608,16 +1618,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 128.27) (xy 109.22 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cd36865-3895-4e7e-9439-55016aafbeb5")
-	)
-	(wire
-		(pts
 			(xy 49.53 33.02) (xy 49.53 22.86)
 		)
 		(stroke
@@ -1788,6 +1788,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 66.04) (xy 109.22 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66e228e2-df16-46c2-a014-943d45eca5d4")
+	)
+	(wire
+		(pts
 			(xy 124.46 48.26) (xy 100.33 48.26)
 		)
 		(stroke
@@ -1948,16 +1958,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 138.43) (xy 111.76 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8632dbb1-7626-4504-bcea-7f78c662f751")
-	)
-	(wire
-		(pts
 			(xy 33.02 60.96) (xy 63.5 60.96)
 		)
 		(stroke
@@ -1978,6 +1978,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 66.04) (xy 124.46 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8acb95d6-0e9d-42d7-9e34-90abde1c6537")
+	)
+	(wire
+		(pts
 			(xy 88.9 38.1) (xy 88.9 25.4)
 		)
 		(stroke
@@ -1988,7 +1998,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 19.05) (xy 72.39 19.05)
+			(xy 33.02 19.05) (xy 41.91 19.05)
 		)
 		(stroke
 			(width 0)
@@ -2068,16 +2078,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 66.04) (xy 124.46 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fa5f22f-d1e1-4609-a6f6-348822698bcf")
-	)
-	(wire
-		(pts
 			(xy 176.53 48.26) (xy 153.67 48.26)
 		)
 		(stroke
@@ -2138,13 +2138,13 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 71.12) (xy 124.46 71.12)
+			(xy 49.53 19.05) (xy 72.39 19.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c029a0c2-273d-4e7d-89c3-a3bfe28c2879")
+		(uuid "c0028028-a77f-44f1-a6cc-8dfeef201eb4")
 	)
 	(wire
 		(pts
@@ -2425,6 +2425,16 @@
 			(type default)
 		)
 		(uuid "f8a24613-b167-42d6-88ab-e2ba64a438b2")
+	)
+	(wire
+		(pts
+			(xy 111.76 71.12) (xy 124.46 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa6c0fd3-4f3e-497a-988e-3dba2f533ca2")
 	)
 	(wire
 		(pts
@@ -2909,6 +2919,108 @@
 			(justify left)
 		)
 		(uuid "f0efbbed-a22d-46b7-82a7-abda039a62a6")
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 45.72 19.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0310b8a0-bb53-439a-8ac7-7a310d5a62e3")
+		(property "Reference" "D3"
+			(at 45.72 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 45.72 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 45.72 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 45.72 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 45.72 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 45.72 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "623e2336-d785-4295-aac6-55f7ef934454")
+		)
+		(pin "2"
+			(uuid "af198241-c3c8-43fb-9cc7-6b7741808cf0")
+		)
+		(instances
+			(project "ECU"
+				(path "/b6c7452d-bbbd-4e52-8edb-9d62f328c3a7/865b6f14-7d9b-4f62-b690-7f2d8bf507e4"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x20_Pin")
