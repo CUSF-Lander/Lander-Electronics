@@ -16839,14 +16839,6 @@
 		(uuid "0f7c77b0-83f9-445f-af9c-36aa52d0c07f")
 	)
 	(segment
-		(start 29.5 52.5)
-		(end 31 52.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "108072c3-145d-4c49-8d63-4c5a8df121ef")
-	)
-	(segment
 		(start 115.5 75.625)
 		(end 114.875 75.625)
 		(width 0.2)
@@ -16965,14 +16957,6 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "306d8e42-967e-4abd-8f36-fd06e7f28b90")
-	)
-	(segment
-		(start 31 52.5)
-		(end 31.5 52)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "32668397-2f58-46be-9f06-73796c7664ae")
 	)
 	(segment
 		(start 114.5 47)
@@ -17167,6 +17151,14 @@
 		(uuid "531e5291-1b99-4cd2-9a07-2577ce6bb2ae")
 	)
 	(segment
+		(start 29.5 52.5)
+		(end 29.5 52.345)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "538e0692-c5f7-4ed9-88d8-9673878ecd0d")
+	)
+	(segment
 		(start 118.625 71.625)
 		(end 119.5 72.5)
 		(width 0.2)
@@ -17287,6 +17279,14 @@
 		(uuid "714216d3-8aa9-4093-a122-7e1f10713e70")
 	)
 	(segment
+		(start 29.5 59.155)
+		(end 28.585 60.07)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "72aab67c-8ab8-497d-982f-8d8236403694")
+	)
+	(segment
 		(start 115.5 82.125)
 		(end 114.875 82.125)
 		(width 0.2)
@@ -17357,6 +17357,14 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "91668826-de88-4295-8874-6b5f4d908c6c")
+	)
+	(segment
+		(start 29.5 52.345)
+		(end 28.585 51.43)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "93a08b78-df00-4bbc-962a-1d1a579080f6")
 	)
 	(segment
 		(start 102 87)
@@ -17445,6 +17453,14 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "b2e74a27-5354-4dc5-b870-12986e8582b7")
+	)
+	(segment
+		(start 29.5 59)
+		(end 29.5 59.155)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "b4bccfca-612d-44b3-a7a2-2edbb5ce5004")
 	)
 	(segment
 		(start 94.5 46.4)
@@ -17832,14 +17848,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net "GND")
 		(uuid "95b3edbc-5219-4cd1-bedc-a11d85eb3089")
-	)
-	(via
-		(at 31.5 52)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "GND")
-		(uuid "99b46510-cb94-445b-8b7f-dbe7e3065424")
 	)
 	(via
 		(at 103.5 61.5)
